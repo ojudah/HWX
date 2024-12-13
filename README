@@ -1,0 +1,59 @@
+# Battleship Game - Java GUI
+
+## Game Description
+Battleship is a classic two-player board game where players take turns attacking the opponent's grid, trying to hit their ships. The goal is to sink all of the opponent's ships before they sink yours.
+
+## Game Rules
+- Playe 1 starts the game, and players alternate turns.
+- Each player has a grid where they have had their ships placed (e.g., carrier, battleship, cruiser, destroyer, and submarine).
+- During each turn, a player will select a cell on the opponent's grid to attack.
+- The opponent’s grid will show red for a miss and green for a hit.
+  - If a ship is hit, an explosion effect will show on the cell.
+- The game continues until all ships of one player are sunk.
+
+## Interface Instructions
+### Start Screen
+- Upon starting the game, a welcome screen will appear. 
+- Click OK to proceed to ship placement.
+
+### Ship Placement
+- A ship will be placed anywhere, however it will not overlap or run off the grid. 
+- Ships can be adjacent to one another. 
+
+### Gameplay
+- After ships are placed, players take turns attacking.
+- Click on a cell on the opponent’s grid to make an attack.
+- After each turn, the boards will hide and player is prompted to then switch turns.
+
+### End of Game
+- The game ends when one player sinks all of the opponent’s ships.
+- A message will pop up to indicate the winner.
+
+## Features
+- Sound Effects: Explosions are accompanied by sound effects when a ship is hit and water splashes when it is a miss
+- Animations: Explosion GIFs are displayed when a ship is hit.
+- Menu: A menu option is available to explain the rules and provide game information.
+  
+## Extras
+### Sounds and Graphics
+The game uses a few media files:
+- (`explosion.gif`) is used for showing explosions when a ship is hit.
+- (`explosion.wav`) for explosion sounds.
+
+### Compiling the Code
+1. javac .\Battleship.java
+2. java Battleship
+
+
+## Resources:
+### Images:
+- https://i.gifer.com/origin/a0/a07ad08920f303f655251b1a0b353b86_w200.gif
+- https://png.pngtree.com/png-vector/20191024/ourmid/pngtree-warship-icon-simple-style-png-image_1852594.jpg
+- https://png.pngtree.com/png-clipart/20240815/original/pngtree-navy-ship-square-icon-vector-png-image_15778070.png
+
+### Sounds:
+- https://pixabay.com/sound-effects/search/explosion/
+
+### Guidance:
+- https://youtu.be/Gy3odNyYzhg?si=Ihi93j6dsX9vXbX_
+- https://youtu.be/DNK-2j4k2bg?si=aZBfOZpJ7NfSpdOe
